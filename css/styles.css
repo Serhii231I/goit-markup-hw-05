@@ -478,6 +478,11 @@ a {
   color: #fff;
 }
 
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
 .button-container {
   margin-left: auto;
   margin-top: auto;
