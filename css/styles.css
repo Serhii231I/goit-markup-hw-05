@@ -164,6 +164,7 @@ a {
 
 .button {
   border: none;
+  cursor: pointer;
   border-radius: 4px;
   background-color: #4d5ae5;
   font-weight: 500;
@@ -175,7 +176,6 @@ a {
 
 .section-one-button {
   display: block;
-  cursor: pointer;
   padding: 16px 32px;
   margin: auto;
   min-width: 169px;
