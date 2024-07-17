@@ -167,6 +167,7 @@ a {
   cursor: pointer;
   border-radius: 4px;
   background-color: #4d5ae5;
+  min-width: 165px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -514,4 +515,5 @@ a {
 
 .footer-button-icon-icon {
   fill: #fff;
+  margin-left: 16px;
 }
