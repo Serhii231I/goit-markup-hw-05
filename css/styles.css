@@ -657,6 +657,7 @@ a {
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-bottom: 24px;
 }
 
 .modal-label .fake-check {
@@ -674,7 +675,7 @@ a {
 .modal-check:checked + .modal-label .fake-check {
   border-radius: 2px;
   background-color: #404bbf;
-  border: 1px solid #404bbf;
+  border: none;
   fill: #f4f4fd;
 }
 
@@ -689,5 +690,5 @@ a {
   width: 169px;
   height: 56px;
   display: block;
-  text-align: center;
+  margin: 0 auto;
 }
