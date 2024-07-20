@@ -575,6 +575,10 @@ a {
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
+}
+
+.modal-icon:hover,
+.modal-icon:focus {
   fill: #ffffff;
 }
 
