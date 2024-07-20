@@ -491,12 +491,59 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
-        <svg class="backdrop-icon" width="24" height="24">
-          <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
-        </svg>
+        <button class="modal-close-btn">
+          <svg class="modal-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
         <p class="modal-text">Leave your contacts and we will call you back</p>
+        <form name="modal-form">
+          <div class="modal-field">
+            <label class="modal-label" for="name"> Name</label>
+            <div class="modal-field-wrap">
+              <input type="text" class="form-input" name="name" id="name" />
+              <svg class="modal-field-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label class="modal-label" for="tel">Phone</label>
+            <div class="modal-field-wrap">
+              <input type="tel" class="form-input" name="tel" id="tel" />
+              <svg class="modal-field-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label class="modal-label" for="email">Email</label>
+            <div class="modal-field-wrap">
+              <input type="email" class="form-input" name="email" id="email" />
+              <svg class="modal-field-icon" width="12" height="12">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-field">
+            <label class="modal-label" for="comment">Comment </label>
+            <textarea
+              class="form-input textarea-input"
+              id="comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="modal-field">
+            <input type="checkbox" name="terms" id="terms" />
+            <label class="modal-label" for="terms"
+              >I accept the terms and conditions of the
+              <span class="privacy">Privacy Policy</span></label
+            >
+          </div>
+        </form>
+        <button class="button modal-btn" type="submit">Order Service</button>
       </div>
     </div>
   </body>
