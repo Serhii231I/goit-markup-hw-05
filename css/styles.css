@@ -511,7 +511,6 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  gap: 16px;
 }
 
 .footer-button-icon-icon {
